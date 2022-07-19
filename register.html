@@ -1,0 +1,18 @@
+<title>Simplechat - Register</title>
+<h1>Register an account</h1>
+<hr>
+<input id="email" placeholder="Email here" />
+<button onclick="submit()">Register</button>
+<style>
+  body {
+    text-align: center;
+  }
+</style>
+<script>
+  function submit() {
+    var email = document.getElementById("email").value
+    var emailprompt = prompt("Please state the 6 digit code provided in your email.", "")
+    alert("We have not set up this feature yet.")
+    window.open("/index.html")
+  }
+</script>
